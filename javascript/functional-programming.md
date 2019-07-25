@@ -1,15 +1,15 @@
 # Functional Programming
-Functional programming is an important programming paradigm. It lets you write more declarative code that makes your code easier to read and understand. Functional programming exists not only in JavaScript but also in a lot of other programming languages too. Read [Master the JavaScript Interview: What is Functional Programming?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0) for an introduction and then work through the sections below.
+Functional programming is an important programming paradigm. It lets you write more declarative code that makes your code easier to read and understand. Functional programming exists not only in JavaScript, but also in a lot of other programming languages too. Read [Master the JavaScript Interview: What is Functional Programming?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0) for an introduction and then work through the sections below.
 
 ## Resources
 ### Pure Functions
-Pure functions are simple but very useful. They are predictable and therefore very easy to test. It is very important that you have as many logic as possible in pure functions. With them, your code will be simple to understand and bug resistant. The main characteristic of a pure function is that it has no side effects. Read [Master the JavaScript Interview: What is a Pure Function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
+Pure functions are simple but very useful. They are predictable and therefore very easy to test. It is very important that you have as much logic as possible in pure functions. With them, your code will be simple to understand and bug resistant. The main characteristic of a pure function is that it has no side effects. Read [Master the JavaScript Interview: What is a Pure Function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 
 ### Higher Order Functions
 A higher order function is a function that takes a function as an argument or returns a function. This is stated in the article [Higher Order Functions (Composing Software)](https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99) from Eric Elliott.
 
 ### Closures
-A [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) is the combination of a function and the lexical environment within which that function was declared.
+A [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) is the combination of a function and the lexical environment within which that function was declared in.
 
 Considering this code example([source](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)):
 
@@ -50,7 +50,7 @@ Immutability is a very important aspect of functional programming. After you rea
 Immutable Javascript using ES6 and beyond](https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/) you should know how to write immutable JavaScript code and why it is so important. [The Dao of Immutability](https://medium.com/javascript-scene/the-dao-of-immutability-9f91a70c88cd) is also a very nice read.
 
 ### .map(), .reduce() and .filter()
-In the article above you often read about [.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) and [.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). Despite they are pure functions, they are very useful and help you write more declarative code. For a better understanding when and how you should use them read [Simplify your JavaScript – Use .map(), .reduce(), and .filter()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d).
+In the article above you often read about [.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) and [.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). Even though they are pure functions, they are still very useful and help you write more declarative code. For a better understanding when and how you should use them read [Simplify your JavaScript – Use .map(), .reduce(), and .filter()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d).
 
 **Important:** Not all of the JavaScript Array [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods) are considered to be pure functions! Some of them mutate the Array they get called on. Be aware of that when using them.
 
